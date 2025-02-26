@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerrajería Puerto Gades</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome (Iconos) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- ScrollReveal.js -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Cerrajería Puerto Gades</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#nosotros">Sobre Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="inicio" class="hero d-flex align-items-center text-white text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Cerrajería - Herrería Puerto Gades</h1>
+            <p class="lead">Servicio rápido y profesional en El Puerto de Santa María</p>
+            <a href="#contacto" class="btn btn-primary btn-lg mt-3">¡Contáctanos Ahora!</a>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+<section id="servicios" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-5">Nuestros Servicios</h2>
+        <div class="row g-4">
+
+            <!-- Servicio 1 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-key fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title fw-bold">Aperturas</h5>
+                        <p class="card-text">Servicio de apertura de puertas de todo tipo, rápido y sin daños.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Servicio 2 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-tools fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title fw-bold">Reparaciones</h5>
+                        <p class="card-text">Reparación de cerraduras, bombines y sistemas de seguridad.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Servicio 3 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-link fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title fw-bold">Igualamientos</h5>
+                        <p class="card-text">Igualamiento de llaves para mayor comodidad y seguridad.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Servicio 4 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-door-closed fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title fw-bold">Puertas Automáticas</h5>
+                        <p class="card-text">Instalación y mantenimiento de puertas automáticas de acceso.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Servicio 5 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-lock fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title fw-bold">Cerrajería en General</h5>
+                        <p class="card-text">Todo tipo de trabajos de cerrajería adaptados a tus necesidades.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Servicio 6 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-building fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title fw-bold">Trabajos a Comunidades</h5>
+                        <p class="card-text">Soluciones completas para comunidades de vecinos y empresas.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- GALERÍA DE TRABAJOS -->
+<section id="galeria" class="py-5 bg-dark text-white">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-5">Nuestros Trabajos</h2>
+
+        <!-- Carrusel de Bootstrap -->
+        <div id="trabajosCarousel" class="carousel slide shadow-lg" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#trabajosCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#trabajosCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#trabajosCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner rounded">
+                <!-- Imagen 1 -->
+                <div class="carousel-item active">
+                    <img src="img/imagen3.jpg" class="d-block w-100" alt="Trabajo 1">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                        <h5>Instalación de Puertas Automáticas</h5>
+                        <p>Soluciones modernas y seguras para accesos.</p>
+                    </div>
+                </div>
+
+                <!-- Imagen 2 -->
+                <div class="carousel-item">
+                    <img src="img/imagen4.jpg" class="d-block w-100" alt="Trabajo 2">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                        <h5>Reparación de Cerraduras</h5>
+                        <p>Servicio rápido y eficiente.</p>
+                    </div>
+                </div>
+
+                <!-- Imagen 3 -->
+                <div class="carousel-item">
+                    <img src="img/imagen5.jpg" class="d-block w-100" alt="Trabajo 3">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                        <h5>Trabajos a Comunidades</h5>
+                        <p>Gestión y mantenimiento para edificios y empresas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controles -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#trabajosCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#trabajosCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+
+<!-- SOBRE NOSOTROS -->
+<section id="nosotros" class="py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Imagen -->
+            <div class="col-md-6 mb-4 mb-md-0">
+                <img src="img/imagen2.jpg" alt="Cerrajería Puerto Gades" class="img-fluid rounded shadow">
+            </div>
+
+            <!-- Texto -->
+            <div class="col-md-6">
+                <h2 class="fw-bold">Sobre Nosotros</h2>
+                <p class="lead">Con más de 20 años de experiencia, en <strong>Cerrajería Puerto Gades</strong> ofrecemos soluciones seguras y rápidas a particulares, comunidades y empresas en El Puerto de Santa María.</p>
+                <p>Nuestro equipo está formado por profesionales cualificados que garantizan resultados impecables en cada proyecto. Nos especializamos en aperturas, reparaciones, igualamientos, instalación de puertas automáticas y mucho más.</p>
+                <p><i class="fas fa-map-marker-alt text-primary"></i> Pol. Ind. Salinas de Levante, C/ Doctor González de la Cotera, Nº20. 11500, El Puerto de Santa María</p>
+                <a href="#contacto" class="btn btn-outline-primary mt-3">Contacta con Nosotros</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-5">Contáctanos</h2>
+        <div class="row g-4">
+
+            <!-- Datos de Contacto -->
+            <div class="col-md-6">
+                <h4 class="fw-bold">Información de Contacto</h4>
+                <p><i class="fas fa-phone-alt text-primary"></i> <strong>Teléfono:</strong> <a href="tel:+34657356650">657 356 650</a></p>
+                <p><i class="fas fa-envelope text-primary"></i> <strong>Email:</strong> <a href="mailto:jflcerrajeria@hotmail.com">jflcerrajeria@hotmail.com</a></p>
+                <p><i class="fas fa-map-marker-alt text-primary"></i> <strong>Dirección:</strong> Pol. Ind. Salinas de Levante, C/ Doctor González de la Cotera, Nº20, 11500, El Puerto de Santa María</p>
+
+                <h5 class="mt-4">Síguenos en Redes</h5>
+                <a href="#" class="me-3 text-dark"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#" class="me-3 text-dark"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#" class="text-dark"><i class="fab fa-whatsapp fa-2x"></i></a>
+            </div>
+
+            <!-- Mapa de Google -->
+            <div class="col-md-6">
+                <h4 class="fw-bold">Encuéntranos Aquí</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.861787503925!2d-6.203727!3d36.604719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0dd2e8b6e7168f%3A0x726ecb355d6a2f17!2sPol.%20Ind.%20Salinas%20de%20Levante%2C%2011500%20El%20Puerto%20de%20Sta.%20Mar%C3%ADa%2C%20C%C3%A1diz!5e0!3m2!1ses!2ses!4v1708865992260!5m2!1ses!2ses" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<a href="https://wa.me/34657356650" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2024 Cerrajería Puerto Gades - Todos los derechos reservados.</p>
+</footer>
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
