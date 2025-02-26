@@ -1,82 +1,59 @@
-# Bite & Grill - Proyecto Web Completo
+# Cerrajería Puerto Gades
+
+![Cerrajería Puerto Gades](img/imagen1.jpg)
 
 ## Descripción
-Bite & Grill es un sitio web desarrollado para gestionar un restaurante de hamburguesas. Incluye funcionalidades como:
-- Visualización del menú con productos dinámicos desde la base de datos.
-- Gestión de pedidos a domicilio y reservas.
-- Envío de correos de confirmación para reservas.
-- Integración con Uber Eats para pedidos.
-- Diseño responsivo y atractivo.
+**Cerrajería Puerto Gades** es una página web profesional y responsiva desarrollada con **HTML, CSS, Bootstrap y JavaScript** para ofrecer información sobre los servicios de cerrajería y herrería.
+
+## Características
+- **Diseño moderno y responsive** con Bootstrap.
+- **Carrusel de trabajos realizados**.
+- **Sección de Servicios** detallada.
+- **Testimonios de clientes** para generar confianza.
+- **Contadores animados** para mostrar experiencia.
+- **Botón flotante de WhatsApp** para contacto rápido.
+- **Google Maps integrado** para ubicación.
+- **Efectos visuales con ScrollReveal y animaciones CSS**.
 
 ## Tecnologías Utilizadas
-- **Frontend:** HTML, CSS, Bootstrap, JavaScript
-- **Backend:** PHP con conexión a MySQL
-- **Base de Datos:** MySQL (`bite_grill.sql`)
-- **Email SMTP:** Envío de correos con PHP
-- **Composer:** Gestión de dependencias PHP
-
-## Requisitos de Instalación
-Antes de ejecutar el proyecto, asegúrate de tener instalado:
-- **PHP 7.4 o superior**
-- **MySQL 5.7 o superior**
-- **Composer**
-- **Servidor local (XAMPP, WAMP, MAMP, Laragon)**
-
-## Configuración de la Base de Datos
-1. Importa el archivo `bite_grill.sql` en MySQL.
-2. Modifica `src/backend/db.php` con tus credenciales de base de datos:
-```php
-$host = "localhost";
-$user = "root"; // Cambiar si es necesario
-$password = ""; // Cambiar si es necesario
-$database = "bite_grill";
-```
-
-## Configuración del Servidor SMTP (Correo Electrónico)
-Para que el sistema de reservas funcione correctamente, configura el envío de correos en `src/backend/enviarCorreo.php` y `src/backend/enviarReserva.php`:
-```php
-$mail->Host = 'smtp.tudominio.com'; // Servidor SMTP
-$mail->Username = 'tuemail@tudominio.com'; // Correo remitente
-$mail->Password = 'tucontraseña'; // Contraseña del correo
-$mail->SMTPSecure = 'tls';
-$mail->Port = 587;
-```
-
-## Instalación y Ejecución
-1. Clona el repositorio:
-```bash
-git clone https://github.com/celianavarrogarrido/BiteAndGrillDefinitivo.git
-```
-2. Accede al directorio del proyecto:
-```bash
-cd BiteAndGrillDefinitivo
-```
-3. Instala las dependencias de PHP:
-```bash
-composer install
-```
-4. Inicia el servidor local:
-```bash
-php -S localhost:8000 -t .
-```
-5. Abre en el navegador:
-```
-http://localhost:8000/
-```
+- **HTML5**
+- **CSS3 + Bootstrap 5**
+- **JavaScript (ScrollReveal, animaciones, interactividad)**
 
 ## Estructura del Proyecto
 ```
-BiteAndGrillDefinitivo/
-│── src/
-│   ├── backend/ (Archivos PHP del servidor)
-│   ├── images/ (Imágenes y recursos estáticos)
-│── index.html (Página principal)
-│── bite_grill.sql (Base de datos)
-│── composer.json (Dependencias PHP)
-│── README.md (Este archivo)
+CerrajeriaPuertoGades/
+├── index.html        # Archivo principal
+├── css/
+│   ├── styles.css    # Estilos personalizados
+├── js/
+│   ├── script.js     # Funcionalidades y animaciones
+├── img/
+│   ├── imagen1.jpg   # Imagen Hero
+│   ├── imagen2.jpg   # Sobre Nosotros
+│   ├── imagen3.jpg   # Trabajo 1
+│   ├── imagen4.jpg   # Trabajo 2
+│   ├── imagen5.jpg   # Trabajo 3
 ```
 
+## Instalación y Uso
+1. Descarga o clona el repositorio:
+   ```sh
+   git clone https://github.com/tuusuario/CerrajeriaPuertoGades.git
+   ```
+2. Abre el archivo `index.html` en tu navegador.
+
+## Despliegue
+Puedes subir la página a **Netlify** o **Vercel** siguiendo estos pasos:
+1. Sube el proyecto a un repositorio en GitHub.
+2. Entra a [Netlify](https://www.netlify.com/) o [Vercel](https://vercel.com/).
+3. Conéctalo con el repositorio y despliega.
+
 ## Contacto
-Si tienes dudas o mejoras, contáctanos en:
-📧 Email: contacto@biteandgrill.com
+📍 **Dirección:** Pol. Ind. Salinas de Levante, C/ Doctor González de la Cotera, Nº20, 11500, El Puerto de Santa María  
+📞 **Teléfono:** 657 356 650  
+📧 **Correo:** jflcerrajeria@hotmail.com  
+
+## Licencia
+Este proyecto es de uso libre. Puedes modificarlo y usarlo según tus necesidades.
 
