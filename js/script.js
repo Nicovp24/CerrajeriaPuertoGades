@@ -41,5 +41,6 @@ carouselElement.addEventListener('mouseleave', () => {
     carousel.cycle();
 });
 
+ScrollReveal().reveal('.elemento', { delay: 200, origin: 'bottom', distance: '50px' });
 
 

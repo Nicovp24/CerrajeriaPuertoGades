@@ -25,7 +25,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: url('../img/imagen1.jpg') no-repeat center center/cover;
+    background: url('../img/imagen1.webp') no-repeat center center/cover;
     height: 100vh;
     position: relative;
 }
